@@ -1,0 +1,22 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "oui",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nemo",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WarriorOfMeadow/la-guilde.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WarriorOfMeadow/la-guilde/issues"
+  },
+  "homepage": "https://github.com/WarriorOfMeadow/la-guilde#readme"
+}
