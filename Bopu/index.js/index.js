@@ -10,7 +10,6 @@ client.on('message', msg => {
     msg.channel.send('pong');
   }
   
-  bot.on('message' , msg => {
   if (msg.content === 'roll') {
     var random = Math.floor(Math.random() * maxRandom ) + 1;
     msg.channel.send(random);
@@ -929,7 +928,6 @@ client.on('message', msg => {
   	msg.channel.send(nameTotal);
   	console.log(nameTotal);
   }
-});
 
   if(msg.content === 'help'){
   	var embed = new Discord.RichEmbed()
@@ -941,6 +939,7 @@ client.on('message', msg => {
   		.setColor('#ff0000')
   	msg.channel.send(embed);
   }
+  
 });
 
 client.login('');
